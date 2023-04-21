@@ -1,0 +1,8 @@
+continuation: false
+continuation_initial_steps: 0
+current_check_interval: 5000
+do_comparison: false
+do_update_model: false
+last_check_step: 96961
+next_ab_initio: false
+next_is_pre_step: true

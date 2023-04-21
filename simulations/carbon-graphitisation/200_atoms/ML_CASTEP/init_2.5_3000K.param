@@ -1,0 +1,49 @@
+#  Hybrid MD decision making package
+#
+#  Copyright (c) Tamas K. Stenczel 2021.
+
+## Switch off extra settings
+
+calculate_stress = false
+popn_calculate = false
+xc_functional   LDA 
+write_checkpoint = none
+cut_off_energy = 550 eV
+elec_energy_tol = 1e-5 eV
+max_scf_cycles  2000
+fix_occupancy   false
+backup_interval = 0
+opt_strategy    speed
+smearing_scheme Gaussian
+smearing_width 0.1 eV
+
+comment = MD with Hybrid method
+task = molecular dynamics
+
+# These settings make sure that forces printed in .md have no thermostat contribution
+md_ensemble = NVT
+md_thermostat = NOSE-HOOVER
+md_delta_t = 1 fs
+md_num_iter = 350000 k
+md_temperature = 3000 K
+md_sample_iter = 100
+
+%BLOCK DEVEL_CODE
+
+  ! generally turns on PP, this is needed together with "MD_PP_HYBRID=T"
+  PP=T
+  MD: PP=T :ENDMD
+
+  ! settings of model called through QUIP
+  pp:
+      QUIP=T
+      QUIP_PARAM_FILE=GAP.xml
+      quip_init_args:IP GAP:endquip_init_args
+  :endpp
+
+  ! settings of PP Hybrid MD
+  MD_PP_HYBRID=T
+  md_pp_hybrid_exec:
+    hybrid-md
+  :endmd_pp_hybrid_exec
+%ENDBLOCK DEVEL_CODE
