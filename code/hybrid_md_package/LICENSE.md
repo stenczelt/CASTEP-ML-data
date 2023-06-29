@@ -88,6 +88,6 @@ Use other than academic and non-commercial use as above is deemed to be commerci
 
 You should have received a copy of the ASL along with this program; if not, write to tks32@cam.ac.uk .  It is also published at https://github.com/gabor1/ASL.
 
-You may contact the original licensor at [Contact details of original licensor].
+You may contact the original licensor at "tks32@cam.ac.uk".
 
 

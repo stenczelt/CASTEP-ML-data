@@ -21,7 +21,7 @@ tolerances:
 refit:
   previous_data: [
       "init.xyz",
-  ]
+  ] # use for restarting
   default_sigma: "0.002 0.2 0.2 0.0"
   descriptor_str: "distance_Nb order=2 cutoff=3.7 n_sparse=15 covariance_type=ard_se delta=0.5 theta_uniform=1.0 sparse_method=uniform: distance_Nb order=3 cutoff=3.0 covariance_type=ard_se n_sparse=50 delta=0.003 theta_uniform=1.0 sparse_method=uniform : soap n_sparse=200 n_max=8 l_max=8 cutoff=3.7 cutoff_transition_width=0.5 atom_sigma=0.5 central_weight=1.0 delta=0.1 f0=0.0 covariance_type=dot_product zeta=4 sparse_method=cur_points"
   extra_gap_opts: "sparse_jitter = 1.0e-8"

@@ -1,0 +1,32 @@
+#  Hybrid MD decision making package
+#
+#  Copyright (c) Tamas K. Stenczel 2021-2023.
+
+# this is an input file for PP-Hybrid MD
+can_update: true # if updates are to be performed
+check_interval: 1
+num_initial_steps: 1
+
+adaptive_method_parameters: 
+  n_min: 1
+  n_max: 10000
+  factor: 2
+
+refit:
+  num_threads: 128
+  default_sigma: "0.001 0.1 0.05 0.0" 
+  descriptor_str: "distance_Nb order=2 cutoff=10.0 \
+                   covariance_type=ARD_SE theta_uniform=0.5 n_sparse=30 \
+                   delta=1.0 sparse_method=uniform compact_clusters=T : \
+                   soap l_max=4 n_max=12 atom_sigma=0.5 zeta=4 cutoff=5.0 \
+                   cutoff_transition_width=1.0 central_weight=1.0 n_sparse=500 \
+                   delta=0.1 f0=0.0 covariance_type=dot_product sparse_method=cur_points"
+  extra_gap_opts: "sparse_jitter = 1.0e-8"
+  e0: "Si:-160.73263835370375"
+
+tolerances:
+  ediff: 0.005  # eV
+  fmax: 0.8    # eV/A
+  frmse: 0.5   # eV/A
+  vmax: null    # eV (virial)
+

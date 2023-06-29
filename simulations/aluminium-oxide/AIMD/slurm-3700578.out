@@ -1,0 +1,17 @@
+-------------------------------------------------------------
+Running on host: nid003405
+Started on: Tue 13 Jun 2023 07:53:16 AM BST
+-------------------------------------------------------------
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23
+
+-------------------------------------------------------------
+Finish on: Wed 14 Jun 2023 05:44:21 AM BST
+-------------------------------------------------------------

@@ -1,0 +1,26 @@
+-------------------------------------------------------------
+Running on host: nid001120
+Started on: Mon 26 Jun 2023 11:09:19 AM BST
+Castep seed: liqSi_250
+-------------------------------------------------------------
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/11.2.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23
+
+
+Inactive Modules:
+  1) cray-mpich
+
+/mnt/lustre/a2fs-work3/work/e89/e89/hert51552/castep-gap-2023-03-11/venv/bin/python
+/work/e89/e89/hert51552/castep-gap-2023-03-11/bin/gap_fit
+/mnt/lustre/a2fs-work3/work/e89/e89/hert51552/castep-gap-2023-03-11/venv/bin/hybrid-md
+Hybrid-MD: INIT Step, exit: 1  -- num_initial_steps 1  -- continuation False
+Hybrid-MD:  PRE Step, exit:  18, md_iteration:  1  --> True False False True
+Hybrid-MD: POST Step, exit:   1, md_iteration:  1
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:  2  --> True False True False
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 3769328.0 ON nid001120 CANCELLED AT 2023-06-26T11:11:58 ***
+slurmstepd: error: *** JOB 3769328 ON nid001120 CANCELLED AT 2023-06-26T11:11:58 ***

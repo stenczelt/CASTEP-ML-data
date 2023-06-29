@@ -9,6 +9,7 @@ calculation.
 
 """
 import sys
+from datetime import datetime
 
 import click
 
@@ -101,6 +102,7 @@ def pre_step(seed, md_iteration):
 
     if VERBOSE:
         print(
+            f"{datetime.now().isoformat()} - "
             f"Hybrid-MD:  PRE Step, exit:{return_value:4}, "
             f"md_iteration:{md_iteration:3}  -->",
             converter.do_ab_initio,
@@ -159,6 +161,7 @@ def post_step(seed, md_iteration):
 
     if VERBOSE:
         print(
+            f"{datetime.now().isoformat()} - "
             f"Hybrid-MD: POST Step, exit:"
             f"{int(state.carry.do_update_model):4}, md_iteration:{md_iteration:3}"
         )

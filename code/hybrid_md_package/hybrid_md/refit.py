@@ -15,6 +15,7 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 from time import time
+from typing import Iterable, Union
 
 import ase.io
 import numpy as np
@@ -63,14 +64,19 @@ def refit(state: HybridMD):
     return refit_function(state)
 
 
-def save_previous_model_files(state: HybridMD):
-    """Handle Precious GAP-fit's files
+def save_previous_model_files(
+    state: HybridMD,
+    additional_files: Iterable[Union[str, Path]] = None,
+):
+    """Handle Previous model files
 
     Saves them into a directory
 
     Parameters
     ----------
     state
+    additional_files
+        Additional files to move away
 
     Returns
     -------
@@ -80,12 +86,11 @@ def save_previous_model_files(state: HybridMD):
 
     main_xml = Path(refit_settings.gp_name)
     if not main_xml.is_file():
-        # no file to deal with
         return
 
     # create new directory for saving the models to
     timestamp = datetime.utcnow().strftime("%Y-%m-%d_%H_%M_%S")
-    save_to = Path(f"GAP_model-step{state.md_iteration:0>6}-at-{timestamp}")
+    save_to = Path(f"ML-model-step{state.md_iteration:0>6}-at-{timestamp}")
     save_to.mkdir(exist_ok=True)
 
     for filename in sorted(Path("").glob(f"{refit_settings.gp_name}*")) + sorted(
@@ -94,6 +99,16 @@ def save_previous_model_files(state: HybridMD):
         # all GAP files & training xyz
         if filename.is_file():
             shutil.move(filename, save_to / filename)
+    if additional_files is None:
+        additional_files = []
+    for filename in additional_files:
+        if filename.is_file() or filename.is_dir():
+            shutil.move(filename, save_to / filename)
+        else:
+            print(
+                "WARNING: Specified additional file to backup "
+                f"does not exist {filename}"
+            )
 
 
 def refit_generic(state: HybridMD):
@@ -173,10 +188,14 @@ def refit_generic(state: HybridMD):
     if refit_settings.use_omp:
         os.environ["OMP_NUM_THREADS"] = str(refit_settings.num_threads)
 
-    # fit the model
-    proc = subprocess.run(
-        fit_str, shell=True, capture_output=True, text=True, check=True
-    )
+    try:
+        # fit the model
+        proc = subprocess.run(fit_str, shell=True, capture_output=True, text=True)
+
+    except subprocess.CalledProcessError as exc:
+        raise RuntimeError(
+            f"Fitting program failed with exit code {exc.returncode}: {fit_str}"
+        ) from exc
 
     # set OMP_NUM_THREADS back to normal
     if refit_settings.use_omp:

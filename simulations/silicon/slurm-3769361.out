@@ -1,0 +1,2187 @@
+-------------------------------------------------------------
+Running on host: nid001233
+Started on: Mon 26 Jun 2023 11:13:37 AM BST
+Castep seed: liqSi_250
+-------------------------------------------------------------
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/11.2.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23
+
+
+Inactive Modules:
+  1) cray-mpich
+
+/mnt/lustre/a2fs-work3/work/e89/e89/hert51552/castep-gap-2023-03-11/venv/bin/python
+/work/e89/e89/hert51552/castep-gap-2023-03-11/bin/gap_fit
+/mnt/lustre/a2fs-work3/work/e89/e89/hert51552/castep-gap-2023-03-11/venv/bin/hybrid-md
+Hybrid-MD: INIT Step, exit: 1  -- num_initial_steps 1  -- continuation False
+Hybrid-MD:  PRE Step, exit:  18, md_iteration:  1  --> True False False True
+Hybrid-MD: POST Step, exit:   1, md_iteration:  1
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:  2  --> True False True False
+Hybrid-MD: POST Step, exit:   0, md_iteration:  2
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:  3  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:  3
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:  4  --> True False True False
+Hybrid-MD: POST Step, exit:   1, md_iteration:  4
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:  5  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:  5
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:  6  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:  6
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:  7  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:  7
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:  8  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:  8
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:  9  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:  9
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 10  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 10
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 11  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 11
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 12  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 12
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 13  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 13
+Hybrid-MD:  PRE Step, exit:  10, md_iteration: 14  --> True False True False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 14
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 15  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 15
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 16  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 16
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 17  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 17
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 18  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 18
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 19  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 19
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 20  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 20
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 21  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 21
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 22  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 22
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 23  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 23
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 24  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 24
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 25  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 25
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 26  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 26
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 27  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 27
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 28  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 28
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 29  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 29
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 30  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 30
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 31  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 31
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 32  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 32
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 33  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 33
+Hybrid-MD:  PRE Step, exit:  10, md_iteration: 34  --> True False True False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 34
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 35  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 35
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 36  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 36
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 37  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 37
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 38  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 38
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 39  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 39
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 40  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 40
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 41  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 41
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 42  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 42
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 43  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 43
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 44  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 44
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 45  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 45
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 46  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 46
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 47  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 47
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 48  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 48
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 49  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 49
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 50  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 50
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 51  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 51
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 52  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 52
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 53  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 53
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 54  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 54
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 55  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 55
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 56  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 56
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 57  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 57
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 58  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 58
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 59  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 59
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 60  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 60
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 61  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 61
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 62  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 62
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 63  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 63
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 64  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 64
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 65  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 65
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 66  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 66
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 67  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 67
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 68  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 68
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 69  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 69
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 70  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 70
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 71  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 71
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 72  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 72
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 73  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 73
+Hybrid-MD:  PRE Step, exit:  10, md_iteration: 74  --> True False True False
+Hybrid-MD: POST Step, exit:   1, md_iteration: 74
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 75  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 75
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 76  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 76
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 77  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 77
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 78  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 78
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 79  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 79
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 80  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 80
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 81  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 81
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 82  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 82
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 83  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 83
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 84  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 84
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 85  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 85
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 86  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 86
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 87  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 87
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 88  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 88
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 89  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 89
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 90  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 90
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 91  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 91
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 92  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 92
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 93  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 93
+Hybrid-MD:  PRE Step, exit:  10, md_iteration: 94  --> True False True False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 94
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 95  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 95
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 96  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 96
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 97  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 97
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 98  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 98
+Hybrid-MD:  PRE Step, exit:   0, md_iteration: 99  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration: 99
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:100  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:100
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:101  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:101
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:102  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:102
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:103  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:103
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:104  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:104
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:105  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:105
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:106  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:106
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:107  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:107
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:108  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:108
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:109  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:109
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:110  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:110
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:111  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:111
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:112  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:112
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:113  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:113
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:114  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:114
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:115  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:115
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:116  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:116
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:117  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:117
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:118  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:118
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:119  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:119
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:120  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:120
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:121  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:121
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:122  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:122
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:123  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:123
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:124  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:124
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:125  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:125
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:126  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:126
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:127  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:127
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:128  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:128
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:129  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:129
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:130  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:130
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:131  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:131
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:132  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:132
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:133  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:133
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:134  --> True False True False
+Hybrid-MD: POST Step, exit:   1, md_iteration:134
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:135  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:135
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:136  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:136
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:137  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:137
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:138  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:138
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:139  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:139
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:140  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:140
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:141  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:141
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:142  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:142
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:143  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:143
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:144  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:144
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:145  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:145
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:146  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:146
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:147  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:147
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:148  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:148
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:149  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:149
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:150  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:150
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:151  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:151
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:152  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:152
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:153  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:153
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:154  --> True False True False
+Hybrid-MD: POST Step, exit:   0, md_iteration:154
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:155  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:155
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:156  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:156
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:157  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:157
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:158  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:158
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:159  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:159
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:160  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:160
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:161  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:161
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:162  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:162
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:163  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:163
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:164  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:164
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:165  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:165
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:166  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:166
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:167  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:167
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:168  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:168
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:169  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:169
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:170  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:170
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:171  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:171
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:172  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:172
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:173  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:173
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:174  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:174
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:175  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:175
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:176  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:176
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:177  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:177
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:178  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:178
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:179  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:179
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:180  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:180
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:181  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:181
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:182  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:182
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:183  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:183
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:184  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:184
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:185  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:185
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:186  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:186
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:187  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:187
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:188  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:188
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:189  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:189
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:190  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:190
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:191  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:191
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:192  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:192
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:193  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:193
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:194  --> True False True False
+Hybrid-MD: POST Step, exit:   0, md_iteration:194
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:195  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:195
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:196  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:196
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:197  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:197
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:198  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:198
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:199  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:199
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:200  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:200
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:201  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:201
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:202  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:202
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:203  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:203
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:204  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:204
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:205  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:205
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:206  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:206
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:207  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:207
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:208  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:208
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:209  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:209
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:210  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:210
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:211  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:211
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:212  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:212
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:213  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:213
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:214  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:214
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:215  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:215
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:216  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:216
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:217  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:217
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:218  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:218
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:219  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:219
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:220  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:220
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:221  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:221
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:222  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:222
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:223  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:223
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:224  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:224
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:225  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:225
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:226  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:226
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:227  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:227
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:228  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:228
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:229  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:229
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:230  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:230
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:231  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:231
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:232  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:232
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:233  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:233
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:234  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:234
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:235  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:235
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:236  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:236
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:237  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:237
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:238  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:238
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:239  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:239
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:240  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:240
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:241  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:241
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:242  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:242
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:243  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:243
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:244  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:244
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:245  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:245
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:246  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:246
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:247  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:247
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:248  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:248
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:249  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:249
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:250  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:250
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:251  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:251
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:252  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:252
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:253  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:253
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:254  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:254
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:255  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:255
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:256  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:256
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:257  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:257
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:258  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:258
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:259  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:259
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:260  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:260
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:261  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:261
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:262  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:262
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:263  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:263
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:264  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:264
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:265  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:265
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:266  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:266
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:267  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:267
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:268  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:268
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:269  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:269
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:270  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:270
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:271  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:271
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:272  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:272
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:273  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:273
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:274  --> True False True False
+Hybrid-MD: POST Step, exit:   1, md_iteration:274
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:275  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:275
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:276  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:276
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:277  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:277
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:278  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:278
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:279  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:279
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:280  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:280
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:281  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:281
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:282  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:282
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:283  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:283
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:284  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:284
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:285  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:285
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:286  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:286
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:287  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:287
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:288  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:288
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:289  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:289
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:290  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:290
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:291  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:291
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:292  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:292
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:293  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:293
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:294  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:294
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:295  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:295
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:296  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:296
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:297  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:297
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:298  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:298
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:299  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:299
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:300  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:300
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:301  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:301
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:302  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:302
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:303  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:303
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:304  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:304
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:305  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:305
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:306  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:306
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:307  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:307
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:308  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:308
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:309  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:309
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:310  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:310
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:311  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:311
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:312  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:312
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:313  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:313
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:314  --> True False True False
+Hybrid-MD: POST Step, exit:   1, md_iteration:314
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:315  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:315
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:316  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:316
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:317  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:317
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:318  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:318
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:319  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:319
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:320  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:320
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:321  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:321
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:322  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:322
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:323  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:323
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:324  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:324
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:325  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:325
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:326  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:326
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:327  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:327
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:328  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:328
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:329  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:329
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:330  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:330
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:331  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:331
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:332  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:332
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:333  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:333
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:334  --> True False True False
+Hybrid-MD: POST Step, exit:   1, md_iteration:334
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:335  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:335
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:336  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:336
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:337  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:337
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:338  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:338
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:339  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:339
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:340  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:340
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:341  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:341
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:342  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:342
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:343  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:343
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:344  --> True False True False
+Hybrid-MD: POST Step, exit:   1, md_iteration:344
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:345  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:345
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:346  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:346
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:347  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:347
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:348  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:348
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:349  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:349
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:350  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:350
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:351  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:351
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:352  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:352
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:353  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:353
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:354  --> True False True False
+Hybrid-MD: POST Step, exit:   1, md_iteration:354
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:355  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:355
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:356  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:356
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:357  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:357
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:358  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:358
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:359  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:359
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:360  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:360
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:361  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:361
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:362  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:362
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:363  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:363
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:364  --> True False True False
+Hybrid-MD: POST Step, exit:   0, md_iteration:364
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:365  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:365
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:366  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:366
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:367  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:367
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:368  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:368
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:369  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:369
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:370  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:370
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:371  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:371
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:372  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:372
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:373  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:373
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:374  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:374
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:375  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:375
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:376  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:376
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:377  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:377
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:378  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:378
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:379  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:379
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:380  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:380
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:381  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:381
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:382  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:382
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:383  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:383
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:384  --> True False True False
+Hybrid-MD: POST Step, exit:   0, md_iteration:384
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:385  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:385
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:386  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:386
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:387  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:387
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:388  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:388
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:389  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:389
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:390  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:390
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:391  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:391
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:392  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:392
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:393  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:393
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:394  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:394
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:395  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:395
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:396  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:396
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:397  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:397
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:398  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:398
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:399  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:399
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:400  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:400
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:401  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:401
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:402  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:402
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:403  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:403
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:404  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:404
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:405  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:405
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:406  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:406
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:407  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:407
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:408  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:408
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:409  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:409
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:410  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:410
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:411  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:411
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:412  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:412
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:413  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:413
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:414  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:414
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:415  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:415
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:416  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:416
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:417  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:417
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:418  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:418
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:419  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:419
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:420  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:420
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:421  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:421
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:422  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:422
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:423  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:423
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:424  --> True False True False
+Hybrid-MD: POST Step, exit:   0, md_iteration:424
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:425  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:425
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:426  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:426
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:427  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:427
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:428  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:428
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:429  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:429
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:430  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:430
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:431  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:431
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:432  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:432
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:433  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:433
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:434  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:434
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:435  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:435
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:436  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:436
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:437  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:437
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:438  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:438
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:439  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:439
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:440  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:440
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:441  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:441
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:442  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:442
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:443  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:443
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:444  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:444
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:445  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:445
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:446  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:446
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:447  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:447
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:448  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:448
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:449  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:449
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:450  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:450
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:451  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:451
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:452  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:452
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:453  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:453
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:454  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:454
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:455  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:455
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:456  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:456
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:457  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:457
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:458  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:458
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:459  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:459
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:460  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:460
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:461  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:461
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:462  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:462
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:463  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:463
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:464  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:464
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:465  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:465
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:466  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:466
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:467  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:467
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:468  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:468
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:469  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:469
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:470  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:470
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:471  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:471
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:472  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:472
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:473  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:473
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:474  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:474
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:475  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:475
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:476  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:476
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:477  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:477
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:478  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:478
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:479  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:479
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:480  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:480
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:481  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:481
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:482  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:482
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:483  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:483
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:484  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:484
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:485  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:485
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:486  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:486
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:487  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:487
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:488  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:488
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:489  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:489
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:490  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:490
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:491  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:491
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:492  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:492
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:493  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:493
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:494  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:494
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:495  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:495
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:496  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:496
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:497  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:497
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:498  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:498
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:499  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:499
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:500  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:500
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:501  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:501
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:502  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:502
+Hybrid-MD:  PRE Step, exit:   0, md_iteration:503  --> False False False False
+Hybrid-MD: POST Step, exit:   0, md_iteration:503
+Hybrid-MD:  PRE Step, exit:  10, md_iteration:504  --> True False True False
+Hybrid-MD: POST Step, exit:   1, md_iteration:504
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+  Potential redefined
+SYSTEM ABORT: proc=11 Traceback (most recent call last)
+File "/work/e89/e89/hert51552/castep-gap-2023-03-11/quip/src/libAtoms/linearalgebra.f95", line 2348
+kind unspecified
+LA_Matrix_Factorise: cannot factorise, error: 1842             
+MPICH ERROR [Rank 11] [job id 3769361.0] [Mon Jun 26 15:05:52 2023] [nid001233] - Abort(1) (rank 11 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+srun: error: nid001233: task 11: Exited with exit code 255
+srun: launch/slurm: _step_signal: Terminating StepId=3769361.0
+slurmstepd: error: *** STEP 3769361.0 ON nid001233 CANCELLED AT 2023-06-26T15:05:54 ***
+srun: error: nid001233: tasks 0-10,12-127: Terminated
+srun: Force Terminated StepId=3769361.0
+-------------------------------------------------------------
+Finish on: Mon 26 Jun 2023 03:05:55 PM BST
+-------------------------------------------------------------

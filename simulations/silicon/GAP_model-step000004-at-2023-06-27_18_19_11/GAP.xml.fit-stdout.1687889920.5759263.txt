@@ -1,0 +1,172 @@
+libAtoms::Hello World: 2023-06-27 19:17:20
+libAtoms::Hello World: git version  git@github.com:libAtoms/QUIP.git,d5a6af3
+libAtoms::Hello World: QUIP_ARCH    archer2_openmp
+libAtoms::Hello World: compiled on  May 11 2023 at 15:12:34
+libAtoms::Hello World: OpenMP parallelisation with 128 threads
+WARNING: libAtoms::Hello World: environment variable OMP_STACKSIZE not set explicitly. The default value - system and compiler dependent - may be too small for some applications.
+libAtoms::Hello World: Random Seed = 69440656
+libAtoms::Hello World: global verbosity = 0
+
+Calls to system_timer will do nothing by default
+
+
+================================ Input parameters ==============================
+
+config_file =
+atoms_filename = //MANDATORY//
+at_file = train.xyz
+gap = " distance_Nb order=2 cutoff=10.0 covariance_type=ARD_SE theta_uniform=0.5 n_sparse=30 delta=1.0 sparse_method=uniform compact_clusters=T : soap l_max=4 n_max=12 atom_sigma=0.5 zeta=4 cutoff=5.0 cutoff_transition_width=1.0 central_weight=1.0 n_sparse=500 delta=0.1 f0=0.0 covariance_type=dot_product sparse_method=cur_points"
+e0 = Si:-160.73263835370375
+local_property0 = 0.0
+e0_offset = 0.0
+e0_method = average
+default_kernel_regularisation = //MANDATORY//
+default_sigma = " 0.001 0.1 0.05 0.0"
+default_kernel_regularisation_local_property = 0.001
+default_local_property_sigma = 0.001
+sparse_jitter = 1.0e-8
+hessian_displacement = 1.0e-2
+hessian_delta = 1.0e-2
+baseline_param_filename = quip_params.xml
+core_param_file = quip_params.xml
+baseline_ip_args =
+core_ip_args =
+energy_parameter_name = QM_energy
+local_property_parameter_name = local_property
+force_parameter_name = QM_forces
+virial_parameter_name = QM_virial
+stress_parameter_name = stress
+hessian_parameter_name = hessian
+config_type_parameter_name = config_type
+kernel_regularisation_parameter_name = sigma
+sigma_parameter_name = sigma
+force_mask_parameter_name = force_mask
+parameter_name_prefix =
+config_type_kernel_regularisation =
+config_type_sigma =
+kernel_regularisation_is_per_atom = T
+sigma_per_atom = T
+do_copy_atoms_file = T
+do_copy_at_file = F
+sparse_separate_file = T
+sparse_use_actual_gpcov = F
+gap_file = gap_new.xml
+gp_file = GAP.xml
+verbosity = NORMAL
+rnd_seed = -1
+openmp_chunk_size = 1000
+do_ip_timing = F
+template_file = template.xyz
+sparsify_only_no_fit = F
+dryrun = F
+condition_number_norm =
+linear_system_dump_file =
+mpi_blocksize_rows = 0
+mpi_blocksize_cols = 100
+mpi_print_all = F
+
+========================================  ======================================
+
+
+============== Gaussian Approximation Potentials - Database fitting ============
+
+
+Initial parsing of command line arguments finished.
+Found 2 GAPs.
+Descriptors have been parsed
+XYZ file read
+Old GAP: { distance_Nb order=2 cutoff=10.0 covariance_type=ARD_SE theta_uniform=0.5 n_sparse=30 delta=1.0 sparse_method=uniform compact_clusters=T}
+New GAP: { distance_Nb order=2 cutoff=10.0 covariance_type=ARD_SE theta_uniform=0.5 n_sparse=30 delta=1.0 sparse_method=uniform compact_clusters=T Z={14 14 }}
+Old GAP: { soap l_max=4 n_max=12 atom_sigma=0.5 zeta=4 cutoff=5.0 cutoff_transition_width=1.0 central_weight=1.0 n_sparse=500 delta=0.1 f0=0.0 covariance_type=dot_product sparse_method=cur_points}
+New GAP: { soap l_max=4 n_max=12 atom_sigma=0.5 zeta=4 cutoff=5.0 cutoff_transition_width=1.0 central_weight=1.0 n_sparse=500 delta=0.1 f0=0.0 covariance_type=dot_product sparse_method=cur_points n_species=1 Z=14 species_Z={14 }}
+Multispecies support added where requested
+
+===================== Report on number of descriptors found ====================
+
+---------------------------------------------------------------------
+Descriptor 1:  distance_Nb order=2 cutoff=10.0 covariance_type=ARD_SE theta_uniform=0.5 n_sparse=30 delta=1.0 sparse_method=uniform compact_clusters=T Z={14 14 }
+Number of descriptors:                        153440
+Number of partial derivatives of descriptors: 2761920
+---------------------------------------------------------------------
+Descriptor 2:  soap l_max=4 n_max=12 atom_sigma=0.5 zeta=4 cutoff=5.0 cutoff_transition_width=1.0 central_weight=1.0 n_sparse=500 delta=0.1 f0=0.0 covariance_type=dot_product sparse_method=cur_points n_species=1 Z=14 species_Z={14 }
+Number of descriptors:                        750
+Number of partial derivatives of descriptors: 174330
+
+========================================  ======================================
+
+
+========================= Memory Estimate (per process) ========================
+
+Descriptors
+Descriptor 1 :: x 1 153440 memory 1227 KB
+Descriptor 1 :: xPrime 1 2761920 memory 22 MB
+Descriptor 2 :: x 391 750 memory 2346 KB
+Descriptor 2 :: xPrime 391 174330 memory 545 MB
+Subtotal 570 MB
+
+Covariances
+yY 530 2271 memory 9629 KB * 2
+yy 530 530 memory 2247 KB
+A 530 2801 memory 11 MB * 2
+Subtotal 45 MB
+
+Peak1 580 MB
+Peak2 45 MB
+PEAK  580 MB
+
+Free system memory  231 GB
+Total system memory 269 GB
+
+========================================  ======================================
+
+
+========== Report on number of target properties found in training XYZ: ========
+
+Number of target energies (property name: QM_energy) found: 3
+Number of target local_properties (property name: local_property) found: 0
+Number of target forces (property name: QM_forces) found: 2250
+Number of target virials (property name: QM_virial) found: 18
+Number of target Hessian eigenvalues (property name: hessian) found: 0
+
+================================= End of report ================================
+
+
+===== Report on per-configuration/per-atom sigma (error parameter) settings ====
+
+Number of per-configuration setting of energy_sigma found:     0
+Number of per-configuration setting of force_sigma found:      0
+Number of per-configuration setting of virial_sigma found:     0
+Number of per-configuration setting of hessian_sigma found:    0
+Number of per-configuration setting of local_propery_sigma found:0
+Number of per-atom setting of force_atom_sigma found:          0
+Number of per-component setting of force_component_sigma found:          0
+Number of per-component setting of virial_component_sigma found:          0
+
+================================= End of report ================================
+
+Started CUR decomposition
+cur_decomposition: iteration: 1, error: .46066995927478548E-009
+Finished CUR decomposition
+Cartesian coordinates transformed to descriptors
+Started sparse covariance matrix calculation of coordinate 1
+
+Finished sparse covariance matrix calculation of coordinate 1
+TIMER: gpFull_covarianceMatrix_sparse_Coordinate1_sparse  done in 4.5045189999999984 cpu secs, 4.5072410330176353 wall clock secs.
+TIMER: gpFull_covarianceMatrix_sparse_Coordinate1         done in 4.5047060000000005 cpu secs, 4.5074180340161547 wall clock secs.
+Started sparse covariance matrix calculation of coordinate 2
+
+Covariance matrix  20% |****                |  10.5 /  52.6 s
+Covariance matrix  40% |********            |  21.1 /  52.6 s
+Covariance matrix  60% |************        |  31.6 /  52.6 s
+Covariance matrix  80% |****************    |  42.1 /  52.6 s
+Covariance matrix 100% |********************|  52.6 /  52.6 s
+Finished sparse covariance matrix calculation of coordinate 2
+TIMER: gpFull_covarianceMatrix_sparse_Coordinate2_sparse  done in 52.621552999999992 cpu secs, 52.648193651984911 wall clock secs.
+TIMER: gpFull_covarianceMatrix_sparse_Coordinate2         done in 52.622702000000004 cpu secs, 52.649357186979614 wall clock secs.
+TIMER: gpFull_covarianceMatrix_sparse_FunctionValues      done in .90000000056988938E-005 cpu secs, .83160120993852615E-005 wall clock secs.
+TIMER: gpFull_covarianceMatrix_sparse                     done in 57.128475999999999 cpu secs, 57.157883059990127 wall clock secs.
+Using LAPACK to solve QR
+TIMER: GP sparsify                                        done in 65.252162999999996 cpu secs, 65.355862597993109 wall clock secs.
+
+libAtoms::Finalise: 2023-06-27 19:18:40
+libAtoms::Finalise: Bye-Bye!
